@@ -119,6 +119,8 @@ class Timeline extends Component {
         activitiesUpdated: false,
         activities: [],
         friendIds: [],
+        times: [],
+        dates: [],
       });
       this.getFriendIds();
     } else {
@@ -127,6 +129,8 @@ class Timeline extends Component {
         toggleButtonText: "Friends",
         activitiesUpdated: false,
         activities: [],
+        times: [],
+        dates: [],
       });
       this.getAllActivities();
     }
